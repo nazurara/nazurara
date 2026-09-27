@@ -1,52 +1,96 @@
-# Hai, saya Nazura 👋
+<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Halo%2C+saya+sedang+belajar+ngoding!;Suka+bikin+proyek+random;Mari+berkolaborasi+%F0%9F%9A%80&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22" alt="Typing SVG" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=NAZURA&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Sistem%20Informasi%20%E2%80%A2%20Mobile%20Programming%20%E2%80%A2%20Future%20Software%20Engineer&descAlignY=58&descSize=18" />
 
-<img src="https://media.giphy.com/media/hokMyu1PAKfJK/giphy.gif" width="100" align="right"/>
+<img src="https://readme-typing-svg.demolab.com/?lines=Belajar+Mobile+Programming+%F0%9F%93%B1;Suka+bikin+proyek+kecil+%F0%9F%92%BB;Mari+berkolaborasi+%F0%9F%9A%80&font=Fira%20Code&center=true&width=440&height=40&color=A78BFA&vCenter=true&size=20" />
 
-🎓 Mahasiswa Sistem Informasi yang sedang belajar
-💡 Suka membangun proyek kecil untuk mengasah kemampuan coding
-🌱 Saat ini sedang belajar: Mobile Programming
-🎯 Tujuan: menjadi Software Engineer
+![Status](https://img.shields.io/badge/🟢_OPEN_TO_LEARN-000000?style=for-the-badge&labelColor=1a1a2e&color=1a1a2e)
 
----
+</div>
 
-## 🐍 Contribution Snake
+<br>
 
-<!-- snake graph dihasilkan otomatis oleh GitHub Action, lihat instruksi di bawah -->
-![snake gif](https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-contribution-grid-snake.svg)
+<div align="center">
 
----
+#### 💻 BAHASA PEMROGRAMAN
+<img src="https://skillicons.dev/icons?i=php,java,python" />
 
-## 🛠️ Tech Stack
+<br>
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-<!-- Tambah/ganti badge sesuai skill kamu: https://github.com/Ileriayo/markdown-badges -->
+#### 🛠️ TOOLS
+<img src="https://skillicons.dev/icons?i=vscode" />
 
----
+<br>
 
-## 🚀 Proyek Pilihan
+#### 🌐 JARINGAN
+<img src="https://img.shields.io/badge/-CISCO-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=161b22"/>
 
-### 📌 [Nama Proyek 1]
-Deskripsi singkat proyek: apa yang dibuat, teknologi yang dipakai, dan masalah apa yang diselesaikan.
-🔗 [Lihat repo](https://github.com/username/repo1)
+<br>
 
----
+#### 🎨 DESAIN
+<img src="https://img.shields.io/badge/-CORELDRAW-000000?style=for-the-badge&logo=coreldraw&logoColor=white&labelColor=161b22"/>
 
-## 📊 GitHub Stats
+</div>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=default)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact)
-<!-- Ganti USERNAME dengan username GitHub kamu -->
-
-![Profile Views](https://komarev.com/ghpvc/?username=USERNAME&color=blue)
+<br>
 
 ---
 
-## 📫 Hubungi Saya
+### 🐍 Contribution Snake
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/username)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:email@example.com)
+<div align="center">
+
+![snake gif](https://raw.githubusercontent.com/nazura/nazura/output/github-contribution-grid-snake.svg)
+
+</div>
+
+---
+
+### 🚀 Proyek Pilihan
+
+<table>
+<tr>
+<td width="50%">
+
+**📌 [Nama Proyek 1]**
+Deskripsi singkat: apa yang dibuat, teknologi yang dipakai, dan masalah yang diselesaikan.
+🔗 [Lihat repo](https://github.com/nazura/repo1)
+
+</td>
+<td width="50%">
+
+**📌 [Nama Proyek 2]**
+Deskripsi singkat: apa yang dibuat, teknologi yang dipakai, dan masalah yang diselesaikan.
+🔗 [Lihat repo](https://github.com/nazura/repo2)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nazura&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nazura&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=nazura&color=blueviolet&style=flat-square)
+
+</div>
+
+---
+
+### 📫 Hubungi Saya
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/username)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:email@example.com)
+
+</div>
