@@ -1,72 +1,18 @@
-<div align="center">
+# 💫 About Me:
+I'm an Information Systems student who loves trying new things and always looking for something new to learn. I'm a big fan of games, and someday I want to build a game of my own.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=Rara&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Sistem%20Informasi%20%E2%80%A2%20Future%20Software%20Engineer&descAlignY=58&descSize=18" />
 
-<img src="https://readme-typing-svg.demolab.com/?lines=About+Me&font=Fira%20Code&center=true&width=440&height=40&color=A78BFA&vCenter=true&size=20" />
+# 💻 Tech Stack:
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=nazurara&theme=neon&hide_border=true&include_all_commits=true&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=nazurara&theme=neon&hide_border=true)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=nazurara&theme=neon&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
 
-![Status](https://img.shields.io/badge/🟢_OPEN_TO_LEARN-000000?style=for-the-badge&labelColor=1a1a2e&color=1a1a2e)
-
-</div>
-
-<br>
-
-<div align="center">
-
-#### 💻 BAHASA PEMROGRAMAN
-<img src="https://skillicons.dev/icons?i=php,java,python" />
-
-<br>
-
-#### 🛠️ TOOLS
-<img src="https://skillicons.dev/icons?i=vscode" />
-
-<br>
-
-#### 🌐 JARINGAN
-<img src="https://img.shields.io/badge/-CISCO_PACKET_TRACER-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=161b22"/>
-
-<br>
-
-#### 🎨 DESAIN
-<img src="https://img.shields.io/badge/-CORELDRAW-000000?style=for-the-badge&logo=coreldraw&logoColor=white&labelColor=161b22"/>
-
-</div>
-
-<br>
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=nazurara&theme=panda&no-frame=true&no-bg=true&margin-w=4)
 
 ---
+[![](https://komarev.com/ghpvc/?username=nazurara&icon=7&color=0)](https://visitcount.itsvg.in)
 
-### 🐍 Contribution Snake
-
-<div align="center">
-
-![snake gif](https://raw.githubusercontent.com/nazurara/nazurara/output/github-contribution-grid-snake.svg)
-
-</div>
-
----
-
-### 🚀 Proyek Pilihan
-
-<div align="center">
-
-🛠️ *Sedang menyiapkan proyek pertama...*
-
-</div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nazurara&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nazurara&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=nazurara&color=blueviolet&style=flat-square)
-
-</div>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
