@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 50" width="1200" height="50">
+  <defs>
+    <linearGradient id="l" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ee8fa" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#7ee8fa"/>
+      <stop offset="0.5" stop-color="#b388ff"/>
+      <stop offset="0.7" stop-color="#ff6fb5"/>
+      <stop offset="1" stop-color="#ff6fb5" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g" x="-10%" y="-200%" width="120%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+    <style>
+      .hb { animation: hb 1.4s ease-in-out infinite; transform-origin: 600px 25px; }
+      @keyframes hb { 0%,100% { transform: scale(1) } 15% { transform: scale(1.25) } 30% { transform: scale(1) } }
+      .tw { animation: tw 2s ease-in-out infinite; }
+      @keyframes tw { 0%,100% { opacity: .2 } 50% { opacity: 1 } }
+      .run { animation: run 4s linear infinite; }
+      @keyframes run { from { transform: translateX(-80px) } to { transform: translateX(1280px) } }
+    </style>
+  </defs>
+  <rect x="80" y="23" width="1040" height="4" rx="2" fill="url(#l)" filter="url(#g)"/>
+  <rect x="80" y="24" width="1040" height="2" rx="1" fill="url(#l)"/>
+  <rect class="run" x="0" y="22" width="60" height="6" rx="3" fill="#ffffff" opacity=".7" filter="url(#g)"/>
+  <g fill="#ffd6f0">
+    <path class="tw" d="M520 15 l2.5 7.5 7.5 2.5 -7.5 2.5 -2.5 7.5 -2.5 -7.5 -7.5 -2.5 7.5 -2.5z"/>
+    <path class="tw" style="animation-delay:1s" d="M680 15 l2.5 7.5 7.5 2.5 -7.5 2.5 -2.5 7.5 -2.5 -7.5 -7.5 -2.5 7.5 -2.5z"/>
+  </g>
+  <rect x="548" y="8" width="104" height="34" rx="17" fill="#0d1117"/>
+  <path class="hb" d="M600 36 C580 24 584 12 594 13 C598 13 600 17 600 17 C600 17 602 13 606 13 C616 12 620 24 600 36 Z" fill="#ff6fb5" stroke="#ffffff" stroke-width="1.5"/>
+</svg>

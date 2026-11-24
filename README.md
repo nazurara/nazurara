@@ -1,6 +1,5 @@
-<!-- ═══════════════ HEADER ═══════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9ad5,50:b388ff,100:7ee8fa&height=210&section=header&text=Nazura&fontSize=70&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%20%E2%9C%A6%20welcome%20to%20my%20little%20corner&descSize=18&descAlignY=60" width="100%" alt="header">
+  <img src="./assets/header.svg" width="100%" alt="Nazura">
 </p>
 
 <p align="center">
@@ -8,28 +7,26 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nazurara&label=visitors&color=ff9ad5&style=for-the-badge" alt="visitors">
+  <img src="https://komarev.com/ghpvc/?username=nazurara&label=visitors&color=ff6fb5&style=for-the-badge" alt="visitors">
 </p>
 
-<p align="center">⋆｡‧˚ʚ♡ɞ˚‧｡⋆</p>
+<img src="./assets/divider.svg" width="100%" alt="">
 
-<!-- ═══════════════ ABOUT ME ═══════════════ -->
 ## ✦ About Me
 
 ```js
 const nazura = {
-  role:       "Information Systems Student",
-  loves:      ["games", "trying new things", "learning something new"],
-  building:   "Tower Zombie 🧟 — a browser tower defense game",
-  learning:   ["JavaScript", "Phaser 3", "game design"],
-  creative:   ["Photoshop", "Canva"],
-  dream:      "make a game people can't stop playing",
+  role:     "Information Systems Student",
+  loves:    ["games", "trying new things", "learning something new"],
+  building: "Tower Zombie 🧟 — a browser tower defense game",
+  learning: ["JavaScript", "Phaser 3", "game design"],
+  creative: ["Photoshop", "Canva"],
+  dream:    "make a game people can't stop playing",
 };
 ```
 
-<p align="center">⋆｡‧˚ʚ♡ɞ˚‧｡⋆</p>
+<img src="./assets/divider.svg" width="100%" alt="">
 
-<!-- ═══════════════ FEATURED GAME ═══════════════ -->
 ## 🎮 Featured Game — Tower Zombie
 
 <p align="center">
@@ -54,9 +51,8 @@ const nazura = {
   </a>
 </p>
 
-<p align="center">⋆｡‧˚ʚ♡ɞ˚‧｡⋆</p>
+<img src="./assets/divider.svg" width="100%" alt="">
 
-<!-- ═══════════════ TECH STACK ═══════════════ -->
 ## 🛠️ Tech Stack
 
 <p align="center">
@@ -66,9 +62,8 @@ const nazura = {
 
 <p align="center"><sub>also using <b>Phaser 3</b> for games and <b>Canva</b> for design ♡</sub></p>
 
-<p align="center">⋆｡‧˚ʚ♡ɞ˚‧｡⋆</p>
+<img src="./assets/divider.svg" width="100%" alt="">
 
-<!-- ═══════════════ STATS ═══════════════ -->
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -80,11 +75,8 @@ const nazura = {
   <img src="https://streak-stats.demolab.com/?user=nazurara&theme=radical&hide_border=true&background=0d1117" alt="streak">
 </p>
 
-<!-- ═══════════════ FOOTER ═══════════════ -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=700&size=16&pause=1500&color=B388FF&center=true&vCenter=true&width=500&lines=%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86+for+visiting!+See+you+again+%E2%99%A1" alt="thanks">
-</p>
+<img src="./assets/divider.svg" width="100%" alt="">
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7ee8fa,50:b388ff,100:ff9ad5&height=120&section=footer" width="100%" alt="footer">
+  <img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=700&size=16&pause=1500&color=B388FF&center=true&vCenter=true&width=500&lines=%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86+for+visiting!+See+you+again+%E2%99%A1" alt="thanks">
 </p>
