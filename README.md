@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Nazura">
+  <img src="./assets/header.svg" width="100%" alt="Zura">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=800&size=22&duration=3000&pause=800&color=FF9AD5&center=true&vCenter=true&width=600&height=45&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+I'm+Nazura+(%EF%BD%A1%E2%80%A2%E1%B4%97%E2%80%A2%EF%BD%A1);Information+Systems+Student+%E2%9C%A6;Gamer+%C3%97+Game+Developer+%F0%9F%8E%AE;Building+my+own+games!+%E2%9C%A8" alt="typing">
+  <img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=800&size=22&duration=3000&pause=800&color=FF9AD5&center=true&vCenter=true&width=600&height=45&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+I'm+Zura+(%EF%BD%A1%E2%80%A2%E1%B4%97%E2%80%A2%EF%BD%A1);Information+Systems+Student+%E2%9C%A6;Gamer+%C3%97+Game+Developer+%F0%9F%8E%AE;Building+my+own+games!+%E2%9C%A8" alt="typing">
 </p>
 
 <p align="center">

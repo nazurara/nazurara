@@ -108,8 +108,8 @@
 
     <!-- judul -->
     <g class="float">
-      <text x="600" y="128" text-anchor="middle" class="ttl" font-size="104" fill="#ff6fb5" opacity=".6" filter="url(#softglow)">NAZURA</text>
-      <text x="600" y="128" text-anchor="middle" class="ttl" font-size="104" fill="url(#title)" stroke="#2a0f57" stroke-width="3" paint-order="stroke" letter-spacing="6">NAZURA</text>
+      <text x="600" y="128" text-anchor="middle" class="ttl" font-size="104" fill="#ff6fb5" opacity=".6" filter="url(#softglow)">ZURA</text>
+      <text x="600" y="128" text-anchor="middle" class="ttl" font-size="104" fill="url(#title)" stroke="#2a0f57" stroke-width="3" paint-order="stroke" letter-spacing="6">ZURA</text>
     </g>
     <text x="600" y="172" text-anchor="middle" class="sub" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="2">ようこそ ✦ Information Systems Student ✦ Game Dev</text>
 

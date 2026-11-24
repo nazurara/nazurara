@@ -17,6 +17,8 @@
       .ui { font-family: 'Segoe UI', 'Yu Gothic', 'Hiragino Maru Gothic ProN', Arial, sans-serif; }
       .line { opacity: 0; animation: show .4s ease-out forwards; }
       @keyframes show { from { opacity: 0; transform: translateX(-12px) } to { opacity: 1; transform: translateX(0) } }
+      .pop { opacity: 0; animation: pop .45s cubic-bezier(.3,1.6,.5,1) forwards; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes pop { from { opacity: 0; transform: scale(.6) } to { opacity: 1; transform: scale(1) } }
       .cur { animation: blink 1s steps(1) infinite; }
       @keyframes blink { 50% { opacity: 0 } }
       .bob { animation: bob 1.6s ease-in-out infinite alternate; }
@@ -40,23 +42,20 @@
   <!-- bar jendela -->
   <path d="M5 27 a22 22 0 0 1 22 -22 h1146 a22 22 0 0 1 22 22 v31 h-1190z" fill="#231848"/>
   <circle cx="38" cy="32" r="8" fill="#ff6fb5"/><circle cx="64" cy="32" r="8" fill="#b388ff"/><circle cx="90" cy="32" r="8" fill="#7ee8fa"/>
-  <text x="600" y="39" text-anchor="middle" class="ui" font-size="17" fill="#cbbcff" font-weight="600">about_me.js  ·  ナズラ</text>
+  <text x="600" y="39" text-anchor="middle" class="ui" font-size="17" fill="#cbbcff" font-weight="600">♡ profile card ♡  ズラ</text>
   <rect x="1040" y="17" width="130" height="28" rx="14" fill="#ff6fb5" opacity=".18"/>
   <text x="1105" y="37" text-anchor="middle" class="ui" font-size="15" font-weight="700" fill="#ff9ad5">♡ online</text>
 
-  <!-- kode -->
-  <g class="code" xml:space="preserve">
-    <text x="40" y="100" class="line c" style="animation-delay:.1s">// hi there! thanks for stopping by (｡•ᴗ•｡)</text>
-    <text x="40" y="140" class="line" style="animation-delay:.3s"><tspan class="k">const</tspan><tspan class="v"> nazura</tspan><tspan class="o"> = {</tspan></text>
-    <text x="40" y="176" class="line" style="animation-delay:.5s"><tspan class="p">&#160;&#160;role</tspan><tspan class="o">:&#160;&#160;&#160;&#160;&#160;</tspan><tspan class="s">"Information Systems Student"</tspan><tspan class="o">,</tspan></text>
-    <text x="40" y="212" class="line" style="animation-delay:.7s"><tspan class="p">&#160;&#160;loves</tspan><tspan class="o">:&#160;&#160;&#160;&#160;[</tspan><tspan class="s">"games"</tspan><tspan class="o">, </tspan><tspan class="s">"new things"</tspan><tspan class="o">, </tspan><tspan class="s">"learning"</tspan><tspan class="o">],</tspan></text>
-    <text x="40" y="248" class="line" style="animation-delay:.9s"><tspan class="p">&#160;&#160;building</tspan><tspan class="o">: </tspan><tspan class="s">"Tower Zombie (tower defense game)"</tspan><tspan class="o">,</tspan></text>
-    <text x="40" y="284" class="line" style="animation-delay:1.1s"><tspan class="p">&#160;&#160;learning</tspan><tspan class="o">: [</tspan><tspan class="s">"JavaScript"</tspan><tspan class="o">, </tspan><tspan class="s">"Phaser 3"</tspan><tspan class="o">, </tspan><tspan class="s">"game design"</tspan><tspan class="o">],</tspan></text>
-    <text x="40" y="320" class="line" style="animation-delay:1.3s"><tspan class="p">&#160;&#160;creative</tspan><tspan class="o">: [</tspan><tspan class="s">"Photoshop"</tspan><tspan class="o">, </tspan><tspan class="s">"Canva"</tspan><tspan class="o">],</tspan></text>
-    <text x="40" y="356" class="line" style="animation-delay:1.5s"><tspan class="p">&#160;&#160;dream</tspan><tspan class="o">:&#160;&#160;&#160;&#160;</tspan><tspan class="s">"make a game people can't stop playing"</tspan></text>
-    <text x="40" y="392" class="line" style="animation-delay:1.7s"><tspan class="o">};</tspan></text>
-    <rect class="cur" x="72" y="374" width="12" height="24" fill="#ff6fb5"/>
-  </g>
+  <!-- isi kartu -->
+    <text x="44" y="112" class="ui line" font-size="42" font-weight="900" fill="#ffffff" style="animation-delay:.1s">Hi! I'm <tspan fill="#ff9ad5">Zura</tspan> <tspan font-size="30" fill="#ffd6f0">(｡•ᴗ•｡)♡</tspan></text>
+    <text x="46" y="148" class="ui line" font-size="18" font-weight="600" fill="#b9a6e8" style="animation-delay:.3s">はじめまして ✦ nice to meet you!</text>
+    <text x="46" y="190" class="ui line" font-size="20" fill="#e9e3ff" style="animation-delay:.5s">An Information Systems student who loves games,</text>
+    <text x="46" y="218" class="ui line" font-size="20" fill="#e9e3ff" style="animation-delay:.6s">trying new things, and learning something new every day.</text>
+    <g class="pop" style="animation-delay:0.8s"><rect x="44" y="250" width="277" height="40" rx="20" fill="#ff9ad5" fill-opacity=".16" stroke="#ff9ad5" stroke-width="2.5"/><text x="182.5" y="276" text-anchor="middle" class="ui" font-size="19" font-weight="700" fill="#ff9ad5">✦ Info Systems Student</text></g>
+    <g class="pop" style="animation-delay:0.92s"><rect x="335" y="250" width="118" height="40" rx="20" fill="#c3a6ff" fill-opacity=".16" stroke="#c3a6ff" stroke-width="2.5"/><text x="394.0" y="276" text-anchor="middle" class="ui" font-size="19" font-weight="700" fill="#c3a6ff">♡ Gamer</text></g>
+    <g class="pop" style="animation-delay:1.04s"><rect x="44" y="304" width="171" height="40" rx="20" fill="#7ee8fa" fill-opacity=".16" stroke="#7ee8fa" stroke-width="2.5"/><text x="129.5" y="330" text-anchor="middle" class="ui" font-size="19" font-weight="700" fill="#7ee8fa">★ Game Maker</text></g>
+    <g class="pop" style="animation-delay:1.1600000000000001s"><rect x="229" y="304" width="213" height="40" rx="20" fill="#ffb38a" fill-opacity=".16" stroke="#ffb38a" stroke-width="2.5"/><text x="335.5" y="330" text-anchor="middle" class="ui" font-size="19" font-weight="700" fill="#ffb38a">☁ Always curious</text></g>
+    <text x="46" y="392" class="ui line" font-size="19" font-style="italic" font-weight="600" fill="#ff9ad5" style="animation-delay:1.6s">☆ dream: make a game people can't stop playing ☆</text>
 
   <!-- maskot kucing imut -->
   <g transform="translate(980,250)">
