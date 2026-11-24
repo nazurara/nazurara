@@ -76,7 +76,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.shion.dev/api?username=nazurara&theme=radical&hide_border=true&show_icons=true&include_all_commits=true&count_private=false&bg_color=0d1117" alt="stats">
+  <img height="170" src="https://github-readme-stats.shion.dev/api?username=nazurara&theme=radical&hide_border=true&show_icons=true&bg_color=0d1117" alt="stats">
   <img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=nazurara&theme=radical&hide_border=true&layout=compact&bg_color=0d1117" alt="top languages">
 </p>
 
