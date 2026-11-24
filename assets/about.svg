@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6fb5"/><stop offset="0.5" stop-color="#b388ff"/><stop offset="1" stop-color="#7ee8fa"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1335"/><stop offset="1" stop-color="#120c26"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0.82" cy="0.55" r="0.35">
+      <stop offset="0" stop-color="#ff6fb5" stop-opacity=".28"/><stop offset="1" stop-color="#ff6fb5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .code { white-space: pre; font-family: 'Cascadia Code', Consolas, 'Fira Code', 'Courier New', monospace; font-size: 22px; }
+      .k { fill: #ff6fb5; font-weight: 700; } .v { fill: #ffffff; font-weight: 700; } .p { fill: #7ee8fa; }
+      .s { fill: #ffe29a; } .o { fill: #b9a6e8; } .c { fill: #6b5f99; font-style: italic; }
+      .ui { font-family: 'Segoe UI', 'Yu Gothic', 'Hiragino Maru Gothic ProN', Arial, sans-serif; }
+      .line { opacity: 0; animation: show .4s ease-out forwards; }
+      @keyframes show { from { opacity: 0; transform: translateX(-12px) } to { opacity: 1; transform: translateX(0) } }
+      .cur { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+      .bob { animation: bob 1.6s ease-in-out infinite alternate; }
+      @keyframes bob { from { transform: translateY(0) } to { transform: translateY(-10px) } }
+      .arm { animation: wave .6s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: 0% 50%; }
+      @keyframes wave { from { transform: rotate(-18deg) } to { transform: rotate(14deg) } }
+      .tail { animation: tail 1.2s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: 0% 100%; }
+      @keyframes tail { from { transform: rotate(-6deg) } to { transform: rotate(8deg) } }
+      .blink { animation: blink2 4s infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+      @keyframes blink2 { 0%,92%,100% { transform: scaleY(1) } 95% { transform: scaleY(.1) } }
+      .heart { animation: up 3.2s ease-in infinite; opacity: 0; }
+      @keyframes up { 0% { transform: translate(0,0) scale(.6); opacity: 0 } 20% { opacity: 1 } 100% { transform: translate(-10px,-110px) scale(1.1); opacity: 0 } }
+      .tw { animation: tw 2s ease-in-out infinite; }
+      @keyframes tw { 0%,100% { opacity: .2 } 50% { opacity: 1 } }
+    </style>
+  </defs>
+
+  <rect x="3" y="3" width="1194" height="424" rx="24" fill="url(#bg)" stroke="url(#border)" stroke-width="4"/>
+  <rect x="3" y="3" width="1194" height="424" rx="24" fill="url(#spot)"/>
+
+  <!-- bar jendela -->
+  <path d="M5 27 a22 22 0 0 1 22 -22 h1146 a22 22 0 0 1 22 22 v31 h-1190z" fill="#231848"/>
+  <circle cx="38" cy="32" r="8" fill="#ff6fb5"/><circle cx="64" cy="32" r="8" fill="#b388ff"/><circle cx="90" cy="32" r="8" fill="#7ee8fa"/>
+  <text x="600" y="39" text-anchor="middle" class="ui" font-size="17" fill="#cbbcff" font-weight="600">about_me.js  ·  ナズラ</text>
+  <rect x="1040" y="17" width="130" height="28" rx="14" fill="#ff6fb5" opacity=".18"/>
+  <text x="1105" y="37" text-anchor="middle" class="ui" font-size="15" font-weight="700" fill="#ff9ad5">♡ online</text>
+
+  <!-- kode -->
+  <g class="code" xml:space="preserve">
+    <text x="40" y="100" class="line c" style="animation-delay:.1s">// hi there! thanks for stopping by (｡•ᴗ•｡)</text>
+    <text x="40" y="140" class="line" style="animation-delay:.3s"><tspan class="k">const</tspan><tspan class="v"> nazura</tspan><tspan class="o"> = {</tspan></text>
+    <text x="40" y="176" class="line" style="animation-delay:.5s"><tspan class="p">&#160;&#160;role</tspan><tspan class="o">:&#160;&#160;&#160;&#160;&#160;</tspan><tspan class="s">"Information Systems Student"</tspan><tspan class="o">,</tspan></text>
+    <text x="40" y="212" class="line" style="animation-delay:.7s"><tspan class="p">&#160;&#160;loves</tspan><tspan class="o">:&#160;&#160;&#160;&#160;[</tspan><tspan class="s">"games"</tspan><tspan class="o">, </tspan><tspan class="s">"new things"</tspan><tspan class="o">, </tspan><tspan class="s">"learning"</tspan><tspan class="o">],</tspan></text>
+    <text x="40" y="248" class="line" style="animation-delay:.9s"><tspan class="p">&#160;&#160;building</tspan><tspan class="o">: </tspan><tspan class="s">"Tower Zombie (tower defense game)"</tspan><tspan class="o">,</tspan></text>
+    <text x="40" y="284" class="line" style="animation-delay:1.1s"><tspan class="p">&#160;&#160;learning</tspan><tspan class="o">: [</tspan><tspan class="s">"JavaScript"</tspan><tspan class="o">, </tspan><tspan class="s">"Phaser 3"</tspan><tspan class="o">, </tspan><tspan class="s">"game design"</tspan><tspan class="o">],</tspan></text>
+    <text x="40" y="320" class="line" style="animation-delay:1.3s"><tspan class="p">&#160;&#160;creative</tspan><tspan class="o">: [</tspan><tspan class="s">"Photoshop"</tspan><tspan class="o">, </tspan><tspan class="s">"Canva"</tspan><tspan class="o">],</tspan></text>
+    <text x="40" y="356" class="line" style="animation-delay:1.5s"><tspan class="p">&#160;&#160;dream</tspan><tspan class="o">:&#160;&#160;&#160;&#160;</tspan><tspan class="s">"make a game people can't stop playing"</tspan></text>
+    <text x="40" y="392" class="line" style="animation-delay:1.7s"><tspan class="o">};</tspan></text>
+    <rect class="cur" x="72" y="374" width="12" height="24" fill="#ff6fb5"/>
+  </g>
+
+  <!-- maskot kucing imut -->
+  <g transform="translate(980,250)">
+    <g class="tw" fill="#ffd6f0">
+      <path d="M-120 -120 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3z"/>
+      <path style="animation-delay:1s" d="M110 -90 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3z"/>
+      <path style="animation-delay:.5s" d="M90 60 l2 6 6 2 -6 2 -2 6 -2 -6 -6 -2 6 -2z"/>
+    </g>
+    <g fill="#ff6fb5">
+      <path class="heart" d="M60 -40 c-8 -6 -12 -14 -4 -18 c3 -1 4 1 4 1 c0 0 1 -2 4 -1 c8 4 4 12 -4 18z"/>
+      <path class="heart" style="animation-delay:1.1s" d="M-50 -30 c-8 -6 -12 -14 -4 -18 c3 -1 4 1 4 1 c0 0 1 -2 4 -1 c8 4 4 12 -4 18z"/>
+      <path class="heart" style="animation-delay:2.2s" d="M20 -60 c-8 -6 -12 -14 -4 -18 c3 -1 4 1 4 1 c0 0 1 -2 4 -1 c8 4 4 12 -4 18z"/>
+    </g>
+    <!-- balon kata -->
+    <g transform="translate(-205,-178)">
+      <rect x="0" y="0" width="170" height="50" rx="25" fill="#ffffff"/>
+      <path d="M120 46 l18 22 -2 -24z" fill="#ffffff"/>
+      <text x="85" y="33" text-anchor="middle" class="ui" font-size="20" font-weight="800" fill="#7c4dff">let's play! ♡</text>
+    </g>
+    <g class="bob">
+      <ellipse cx="0" cy="120" rx="58" ry="12" fill="#000" opacity=".35"/>
+      <!-- ekor -->
+      <g class="tail"><path d="M34 92 q52 -6 40 -62 q-4 -14 -16 -10" fill="none" stroke="#1d1b2b" stroke-width="16" stroke-linecap="round"/>
+      <path d="M34 92 q52 -6 40 -62 q-4 -14 -16 -10" fill="none" stroke="#fff4e6" stroke-width="10" stroke-linecap="round"/></g>
+      <!-- badan hoodie -->
+      <rect x="-42" y="22" width="84" height="84" rx="34" fill="#b388ff" stroke="#1d1b2b" stroke-width="5"/>
+      <path d="M-14 26 q14 14 28 0" fill="none" stroke="#7c4dff" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="-20" cy="110" rx="15" ry="9" fill="#fff4e6" stroke="#1d1b2b" stroke-width="4"/>
+      <ellipse cx="20" cy="110" rx="15" ry="9" fill="#fff4e6" stroke="#1d1b2b" stroke-width="4"/>
+      <!-- stik game -->
+      <rect x="-36" y="56" width="72" height="34" rx="16" fill="#ff6fb5" stroke="#1d1b2b" stroke-width="4"/>
+      <path d="M-20 73 h12 M-14 67 v12" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="14" cy="68" r="4" fill="#7ee8fa"/><circle cx="23" cy="77" r="4" fill="#ffd166"/>
+      <circle cx="-34" cy="70" r="10" fill="#fff4e6" stroke="#1d1b2b" stroke-width="4"/>
+      <!-- tangan melambai -->
+      <g class="arm"><rect x="40" y="22" width="18" height="40" rx="9" fill="#b388ff" stroke="#1d1b2b" stroke-width="4" transform="rotate(-40 49 54)"/>
+      <circle cx="78" cy="24" r="11" fill="#fff4e6" stroke="#1d1b2b" stroke-width="4"/></g>
+      <!-- telinga -->
+      <path d="M-52 -42 L-46 -104 L-6 -70 Z" fill="#fff4e6" stroke="#1d1b2b" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M52 -42 L46 -104 L6 -70 Z" fill="#fff4e6" stroke="#1d1b2b" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M-44 -54 L-41 -88 L-18 -70 Z" fill="#ff9ad5"/>
+      <path d="M44 -54 L41 -88 L18 -70 Z" fill="#ff9ad5"/>
+      <!-- kepala -->
+      <ellipse cx="0" cy="-24" rx="62" ry="52" fill="#fff4e6" stroke="#1d1b2b" stroke-width="5"/>
+      <path d="M-30 -70 q8 10 0 20 M0 -76 q8 10 0 20" fill="none" stroke="#ffcf9f" stroke-width="5" stroke-linecap="round"/>
+      <g class="blink">
+        <ellipse cx="-24" cy="-22" rx="10" ry="13" fill="#2b2140"/>
+        <ellipse cx="24" cy="-22" rx="10" ry="13" fill="#2b2140"/>
+        <circle cx="-20" cy="-27" r="4" fill="#ffffff"/><circle cx="28" cy="-27" r="4" fill="#ffffff"/>
+        <circle cx="-27" cy="-16" r="2" fill="#ffffff" opacity=".8"/><circle cx="21" cy="-16" r="2" fill="#ffffff" opacity=".8"/>
+      </g>
+      <ellipse cx="-42" cy="-2" rx="11" ry="6" fill="#ff9ad5" opacity=".85"/>
+      <ellipse cx="42" cy="-2" rx="11" ry="6" fill="#ff9ad5" opacity=".85"/>
+      <path d="M-4 -9 l4 3 l4 -3 z" fill="#ff6fb5"/>
+      <path d="M-10 -2 q5 7 10 0 q5 7 10 0" fill="none" stroke="#1d1b2b" stroke-width="3.5" stroke-linecap="round"/>
+      <g stroke="#1d1b2b" stroke-width="2.5" stroke-linecap="round">
+        <path d="M-50 -10 h-22 M-50 -3 l-20 6"/><path d="M50 -10 h22 M50 -3 l20 6"/>
+      </g>
+      <!-- pita -->
+      <g transform="translate(40,-78) rotate(20)">
+        <path d="M0 0 L-16 -10 L-16 10 Z M0 0 L16 -10 L16 10 Z" fill="#ff6fb5" stroke="#1d1b2b" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="0" cy="0" r="5" fill="#ff9ad5" stroke="#1d1b2b" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

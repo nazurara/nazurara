@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6fb5"/><stop offset="1" stop-color="#ff9a6b"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="4" y="4" width="232" height="56" rx="28"/></clipPath>
+    <filter id="f" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+    <style>
+      .sh { animation: sh 2.4s ease-in-out infinite; }
+      @keyframes sh { 0% { transform: translateX(-120px) } 60%,100% { transform: translateX(300px) } }
+      .t { font-family: 'Segoe UI Black', 'Arial Black', Arial, sans-serif; font-weight: 900; }
+    </style>
+  </defs>
+  <rect x="4" y="8" width="232" height="56" rx="28" fill="#ff6fb5" opacity=".45" filter="url(#f)"/>
+  <rect x="4" y="4" width="232" height="56" rx="28" fill="url(#g)"/>
+  <g clip-path="url(#c)"><rect class="sh" x="0" y="0" width="70" height="64" fill="url(#shine)" transform="skewX(-20)"/></g>
+  <rect x="5.5" y="5.5" width="229" height="53" rx="26.5" fill="none" stroke="#ffffff" stroke-opacity=".6" stroke-width="2"/>
+  <circle cx="36" cy="32" r="17" fill="#ffffff"/>
+  <path d="M30 23 L45 32 L30 41 Z" fill="#ff6fb5"/>
+  <text x="138" y="40" text-anchor="middle" class="t" font-size="22" fill="#ffffff" letter-spacing="1.5">PLAY NOW</text>
+</svg>

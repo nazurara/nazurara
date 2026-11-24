@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=800&size=22&duration=3000&pause=800&color=FF9AD5&center=true&vCenter=true&width=600&height=45&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+I'm+Nazura+(%EF%BD%A1%E2%80%A2%E1%B4%97%E2%80%A2%EF%BD%A1);Information+Systems+Student+%E2%9C%A6;Gamer+%C3%97+Game+Developer+%F0%9F%8E%AE;Building+my+own+zombie+game!+%F0%9F%A7%9F" alt="typing">
+  <img src="https://readme-typing-svg.demolab.com?font=M+PLUS+Rounded+1c&weight=800&size=22&duration=3000&pause=800&color=FF9AD5&center=true&vCenter=true&width=600&height=45&lines=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF!+I'm+Nazura+(%EF%BD%A1%E2%80%A2%E1%B4%97%E2%80%A2%EF%BD%A1);Information+Systems+Student+%E2%9C%A6;Gamer+%C3%97+Game+Developer+%F0%9F%8E%AE;Building+my+own+games!+%E2%9C%A8" alt="typing">
 </p>
 
 <p align="center">
@@ -12,44 +12,53 @@
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-## ✦ About Me
-
-```js
-const nazura = {
-  role:     "Information Systems Student",
-  loves:    ["games", "trying new things", "learning something new"],
-  building: "Tower Zombie 🧟 — a browser tower defense game",
-  learning: ["JavaScript", "Phaser 3", "game design"],
-  creative: ["Photoshop", "Canva"],
-  dream:    "make a game people can't stop playing",
-};
-```
+<p align="center">
+  <img src="./assets/about.svg" width="100%" alt="About me">
+</p>
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-## 🎮 Featured Game — Tower Zombie
+## 🎮 My Projects
 
+<!-- ===== PROYEK 1 ===== -->
+<h3 align="center">🎮 Tower Zombie</h3>
 <p align="center">
   <a href="https://nazurara.github.io/tower-zombie/">
     <img src="https://nazurara.github.io/tower-zombie/assets/images/preview.png" width="720" alt="Tower Zombie">
   </a>
 </p>
-
 <p align="center">
-  <b>Defend your house from zombie hordes across 4 worlds!</b><br>
+  <b>A tower defense adventure across 4 worlds!</b><br>
   🌳 Village &nbsp;·&nbsp; 🏖️ Beach &nbsp;·&nbsp; ❄️ Snow Peak &nbsp;·&nbsp; 🌋 Volcano<br>
-  6 towers &nbsp;✦&nbsp; Lv4 ultimate upgrades &nbsp;✦&nbsp; 4 boss fights &nbsp;✦&nbsp; skill picks every wave
+  6 towers &nbsp;✦&nbsp; Lv4 ultimate upgrades &nbsp;✦&nbsp; 4 boss fights &nbsp;✦&nbsp; skill picks every wave<br>
+  <sub>JavaScript · Phaser 3</sub>
+</p>
+<p align="center">
+  <a href="https://nazurara.github.io/tower-zombie/"><img src="./assets/btn-play.svg" height="52" alt="Play now"></a>
+  &nbsp;
+  <a href="https://github.com/nazurara/tower-zombie"><img src="./assets/btn-code.svg" height="52" alt="Source code"></a>
 </p>
 
+<!--
+  ===== CARA MENAMBAH PROYEK BARU =====
+  Salin blok di bawah ini (hapus tanda komentar), taruh di bawah PROYEK 1, lalu ganti:
+  NAMA-PROYEK, NAMA-REPO, link gambar, dan deskripsinya.
+  Kalau proyeknya tidak bisa dimainkan/dibuka di web, hapus baris tombol btn-play.
+
+<h3 align="center">✨ NAMA-PROYEK</h3>
 <p align="center">
-  <a href="https://nazurara.github.io/tower-zombie/">
-    <img src="https://img.shields.io/badge/PLAY_NOW-FF6FB5?style=for-the-badge&logoColor=white" height="38" alt="Play now">
-  </a>
-  &nbsp;
-  <a href="https://github.com/nazurara/tower-zombie">
-    <img src="https://img.shields.io/badge/SOURCE_CODE-7C4DFF?style=for-the-badge&logo=github&logoColor=white" height="38" alt="Source code">
-  </a>
+  <img src="https://raw.githubusercontent.com/nazurara/NAMA-REPO/main/preview.png" width="720" alt="NAMA-PROYEK">
 </p>
+<p align="center">
+  Deskripsi singkat proyek dalam satu atau dua kalimat.<br>
+  <sub>Java · MySQL</sub>
+</p>
+<p align="center">
+  <a href="https://nazurara.github.io/NAMA-REPO/"><img src="./assets/btn-play.svg" height="52" alt="Play now"></a>
+  &nbsp;
+  <a href="https://github.com/nazurara/NAMA-REPO"><img src="./assets/btn-code.svg" height="52" alt="Source code"></a>
+</p>
+-->
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
