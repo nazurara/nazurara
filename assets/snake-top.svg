@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ee8fa"/><stop offset=".5" stop-color="#b388ff"/><stop offset="1" stop-color="#ff6fb5"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1352"/><stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="g" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .t { font-family: 'Segoe UI Black', 'Arial Black', Arial, sans-serif; font-weight: 900; }
+      .u { font-family: 'Segoe UI', 'Yu Gothic', Arial, sans-serif; font-weight: 700; }
+      .blink { animation: bl 1.2s steps(1) infinite; } @keyframes bl { 50% { opacity: 0 } }
+      .tw { animation: tw 2s ease-in-out infinite; } @keyframes tw { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+      .hb { animation: hb 1.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes hb { 0%,100% { transform: scale(1) } 15% { transform: scale(1.3) } 30% { transform: scale(1) } }
+    </style>
+  </defs>
+  <path d="M2 88 V30 a28 28 0 0 1 28 -28 H1170 a28 28 0 0 1 28 28 V88" fill="url(#bg)" stroke="url(#b)" stroke-width="4"/>
+  <circle cx="40" cy="38" r="9" fill="#ff6fb5"/><circle cx="68" cy="38" r="9" fill="#b388ff"/><circle cx="96" cy="38" r="9" fill="#7ee8fa"/>
+  <text x="600" y="50" text-anchor="middle" class="t" font-size="30" fill="#ffffff" letter-spacing="4" filter="url(#g)">SNAKE <tspan fill="#ff9ad5">✦</tspan> スネーク</text>
+  <text x="600" y="76" text-anchor="middle" class="u blink" font-size="15" fill="#7ee8fa" letter-spacing="3">▶ NOW EATING ZURA'S COMMITS</text>
+  <text x="1090" y="45" text-anchor="end" class="u" font-size="16" fill="#cbbcff" letter-spacing="2">LIVES</text>
+  <g fill="#ff6fb5">
+    <path class="hb" d="M1112 46 c-7 -5 -10 -11 -4 -14 c3 -1 4 1 4 1 c0 0 1 -2 4 -1 c6 3 3 9 -4 14z"/>
+    <path class="hb" style="animation-delay:.2s" d="M1134 46 c-7 -5 -10 -11 -4 -14 c3 -1 4 1 4 1 c0 0 1 -2 4 -1 c6 3 3 9 -4 14z"/>
+    <path class="hb" style="animation-delay:.4s" d="M1156 46 c-7 -5 -10 -11 -4 -14 c3 -1 4 1 4 1 c0 0 1 -2 4 -1 c6 3 3 9 -4 14z"/>
+  </g>
+  <g fill="#ffd6f0">
+    <path class="tw" d="M300 30 l2.5 7 7 2.5 -7 2.5 -2.5 7 -2.5 -7 -7 -2.5 7 -2.5z"/>
+    <path class="tw" style="animation-delay:1s" d="M900 30 l2.5 7 7 2.5 -7 2.5 -2.5 7 -2.5 -7 -7 -2.5 7 -2.5z"/>
+  </g>
+</svg>

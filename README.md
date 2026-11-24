@@ -89,11 +89,9 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nazurara/nazurara/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nazurara/nazurara/output/snake-light.svg">
-    <img src="https://raw.githubusercontent.com/nazurara/nazurara/output/snake-dark.svg" width="100%" alt="snake eating my contributions">
-  </picture>
+  <img src="./assets/snake-top.svg" width="100%" alt=""><br>
+  <img src="https://raw.githubusercontent.com/nazurara/nazurara/output/snake-dark.svg" width="94%" alt="snake eating my contributions"><br>
+  <img src="./assets/snake-bottom.svg" width="100%" alt="">
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="">
