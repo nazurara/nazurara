@@ -39,6 +39,22 @@
   <a href="https://github.com/nazurara/tower-zombie"><img src="./assets/btn-code.svg" height="52" alt="Source code"></a>
 </p>
 
+<h3 align="center">🎮 Balik</h3>
+<p align="center">
+  <a href="https://nazurara.github.io/balik/">
+    <img src="https://nazurara.github.io/balik/assets/images/preview.png" width="720" alt="Balik">
+  </a>
+</p>
+<p align="center">
+  <b>Game platformer 2D pixel art tentang Li, remaja Minang yang pulang kampung dengan berjalan kaki.</b><br>
+  <sub>JavaScript · Phaser 3</sub>
+</p>
+<p align="center">
+  <a href="https://nazurara.github.io/balik/"><img src="./assets/btn-play.svg" height="52" alt="Play now"></a>
+  &nbsp;
+  <a href="https://github.com/nazurara/balik"><img src="./assets/btn-code.svg" height="52" alt="Source code"></a>
+</p>
+
 <!--
   ===== CARA MENAMBAH PROYEK BARU =====
   Salin blok di bawah ini (hapus tanda komentar), taruh di bawah PROYEK 1, lalu ganti:
